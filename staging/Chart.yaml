@@ -1,0 +1,11 @@
+apiVersion: v2
+name: fourtout
+description: fourtout app - Staging
+type: application
+version: 1.0.0
+appVersion: "10"
+dependencies:
+- name: fourtout
+  version: 0.1.0
+  repository: oci://ghcr.io/gbaneassouman
+
